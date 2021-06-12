@@ -1,0 +1,65 @@
+/* at least one media query*/
+html{
+  height: 100%;
+}
+
+body{
+  height:100%;
+  overflow: hidden;
+  display: flex;
+
+}
+
+.column{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+#navbar{
+  position:fixed;
+}
+
+a{
+  border-top: solid;
+  border-color: black;
+  border-width: 1px;
+  color:gray !important;
+}
+
+#pageTitle{
+  text-align: center;
+  padding:10px;
+}
+
+#main-doc{
+  position: absolute;
+  margin-left:250px;
+  padding: 20px;
+  margin-bottom: 110px;
+  background-color: aquamarine;
+}
+h3{
+  padding-bottom: 10px;
+}
+p{
+  margin-left:20px;
+}
+
+ul{
+  margin-left:25px;
+}
+
+code{
+  display: block;
+  text-align: left;
+  position: relative;
+  line-height: 2;
+  background-color:rgb(247, 244, 244);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  color: black !important;;
+}
+
